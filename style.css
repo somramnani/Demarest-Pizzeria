@@ -1,0 +1,668 @@
+/*
+   Som Ramnani's Webpage Style Sheet
+   Author: Som Ramnani
+   Date:  9/26/2017 
+   
+   Filename: style.css
+
+*/
+/*Image Styles*/
+
+@media (min-width: 700px) {
+.item{
+ width:auto;
+ height:555px;
+    
+}
+}
+.information{
+   
+    font-size:17px;
+    font-family: 'Hind', sans-serif;
+    
+}
+.testimonials_text{
+      font-family: 'Hind', serif;
+}
+#chicken{
+    width:100%;
+}
+.icon{
+    max-width:200px;
+    margin: 1% auto;
+    
+ 
+}
+.Menu{
+    
+    background-image:linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,.7)) ,url(images/Menu.jpg) ;
+    padding-bottom: 30%;
+    padding-top: 5;
+    background-position:center;
+    background-size:cover;
+    color:white;
+}
+
+
+body{
+margin: 0;
+padding:0;
+height:100%;
+width:100%;
+}
+
+.carousel-caption{
+    top:35%;
+    transform: translateY(-50%);  
+    text-transform: uppercase;
+   font-family: 'Cinzel Decorative', cursive;
+   
+   
+   
+    
+}
+#indextitle{
+    font-size:70px;
+}
+
+
+.Meat_Pies dl, .vegetarian_pies dl, .appetizers dl, .salads dl, .italian dl, 
+ .pasta dl, .calzones dl, .burgers dl{
+  
+font-family: 'Cormorant Upright', serif;
+}
+
+
+ .Meat_Pies dt, .vegetarian_pies dt, .appetizers dt, .salads dt, .italian dt, 
+.pasta dt, .calzones dt, .burgers dt{
+font-size:25px;
+}
+
+.Meat_Pies  dd , .vegetarian_pies dd, .appetizers dd, .salads dd, .italian dd, 
+.pasta dd, .calzones dd, .burgers dd{
+font-size:20px;
+
+}
+
+
+#pizza, #saladstitle, #italian_title, #pasta_title, #calzones_titles, #calzone_title, #burgers_title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Cinzel Decorative', cursive;
+    font-style:oblique; 
+    
+}
+
+.specialty_pies h2:after, .appetizersheader h2:after, .salads h2:after, .italian h2:after ,
+.pasta h2:after, .calzones h2:after , .burgers h2:after{
+      width:150px;
+    height:2px;
+    background-color:#E67E22;
+    display:block;
+    content:"";
+    margin:0 auto;
+    margin-top:30px;
+}
+.italian p, .burgers p {
+     font-family: 'Italianno', cursive;
+     font-size:25px;
+}
+ 
+
+#gourmet{
+    width:100%;
+}
+   
+.carousel-inner button{
+    font-size: 18px;
+    color: #FFF;
+    padding:12px 22px;
+    background: #5E4485;
+    border: 2px solid #FFF;
+}
+
+#map{
+    width: 50%;
+    height:100%;
+    background:white;
+  
+    
+   
+}
+#location{
+    float:right;
+    position: absolute;
+}
+body, html, main{
+    height:100%;
+}
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+#location{
+    float:right;
+    align: center;
+}
+/*
+header{
+    background-image:  url("images/grey-08.jpg");
+    
+    
+    /* background:#464655; */
+.fa-home, .fa-columns, .fa-info, .fa-truck, .fa-phone{
+    padding-right:10px;
+}
+footer{
+    width:100%;
+
+    background-image:  url("images/grey-08.jpg");
+    color:white;
+    font-family: 'Courgette', cursive;
+}
+
+.fa-facebook, .fa-twitter, .fa-yelp{
+    padding:15px;
+    font-size: 100%;
+    color: #FFF;
+} 
+.fa-facebook:hover, .fa-twitter:hover, .fa-yelp:hover{
+    color:#D5D5D5;
+    text-decoration: none;
+}
+
+
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("http://s1.picswalls.com/wallpapers/2015/09/20/beautiful-hd-wallpaper-2015_111526537_269.jpg");
+}
+
+
+
+#steve{
+    display: block;
+    margin: auto;
+    height: 400px;
+    width: auto;
+        
+}
+
+#logo{
+    display: left;
+    margin: auto;
+    height: auto;
+    width: 80px;
+   
+}
+#catering{
+    display: block;
+    margin: auto;
+    height: auto;	
+}
+
+/* Main Structural Styles */
+
+
+
+/* Heading Styles */
+
+.features h3, .mobile h3, .testimonials h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+#title {
+    text-align: center;
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: oblique;
+    font-size: 40px;
+}
+
+ #aboutme, #menu,  #catering{
+    text-align: center;
+    text-transform: uppercase;
+   font-family: 'Cinzel Decorative', cursive;
+    font-style:oblique;
+    font-size: 30px;
+}
+#meetsteve{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Cinzel Decorative', cursive;
+    font-style:oblique; 
+   
+}
+
+.aboutsteve{
+    background-color:#F8F8FF;
+    padding-top:10px;
+    padding-bottom:100px;
+    
+}
+#aboutstevepicture{
+   padding-top:20px;
+   padding-left:20px;
+    display: block;
+    margin: auto;
+    height: 450px;
+    width: auto;
+    
+}
+
+#vegetarian{
+        text-align: center;
+	text-transform: uppercase;
+	font-family: 'Cinzel Decorative', cursive;
+        font-style:oblique;
+        padding:20px;
+}
+
+/* Navigation Styles */
+
+.mainmenu{
+  
+    font-family: 'Courgette', cursive; 
+    padding:1% 0;
+  
+}
+.navbar1 ul li{
+    padding-top:10px;
+}
+
+.navbar1{
+    margin-bottom: 0;
+    border-radius:0;
+    padding:  0;
+    border: 0;
+    font-size:1.5em;
+    font-family: 'Courgette', cursive;
+   
+}
+.navbar-inverse .navbar-nav .active:a , .navbar-inverse .navbar-nav .active:focus,
+.navbar-inverse .navbar-nav .active:hover {
+    color:black;
+     background-color: #FFF !important;
+    
+
+    
+}
+
+
+
+.pancakes ul{
+     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+    
+    
+}
+.pancakes li.active {
+    padding-top:18px;
+    text-decoration:none;
+    
+    
+}
+
+.pancakes li.active:a{
+    padding-top:18px;
+    text-decoration:none;
+    background-color:none;
+    
+    
+}
+
+
+.pancakes li {
+    
+    display: inline-block;
+    text-align: center;
+}
+.pancakes li a{
+    
+   text-decoration:none; 
+    padding: 2em 0em 0em 1em;
+    font-family: 'Courgette', cursive;
+    font-size:20px;
+    
+}
+
+
+
+
+
+
+
+/*Paragraph Styles */
+
+
+#copy{
+    font-family: 'Courgette', cursive;
+    font-size: 18px;
+}
+.mobile p{
+ font-family: 'Spectral SC', serif;
+ font-size:20px;
+ 
+ padding: 10px;
+}
+
+
+ /* #aboutparagraph{
+	margin-right: 300px;
+        margin-left: 300px;
+	border-bottom-style: solid;
+	border-top-style: solid;
+        font-size: 14pt;
+        font-family: "Comic-Sans MS", cursive, sans-serif;
+        font-family: 'Lobster', cursive;
+	/* border-right-style: solid;
+	border-left-style: solid; 
+}*/
+
+/*
+#intro{
+	font-style: italic;
+	text-align: center;
+        font-size: 28pt;
+       margin-right: 300px;
+        margin-left: 300px;  
+        font-family: 'Lobster', cursive;
+	   
+}
+*/
+
+#ordernowhero{
+    position: relative;
+    width: 1140px;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: white;
+    
+}
+
+#heromenu{
+    color:white;
+    position: relative;
+    text-align:center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ #ordernow{
+     font-size: 4em;
+     
+     text-transform: uppercase;
+    font-family: 'Cinzel Decorative', cursive;
+    font-style:oblique; 
+  
+    
+    
+}
+
+ #menuh1{
+     font-size: 4em;
+     text-transform: uppercase;
+    font-family: 'Cinzel Decorative', cursive;
+    font-style:oblique; 
+    
+  
+    
+    
+}
+#top{
+    background-image:url(images/Pizza.jpg);
+ 
+    height: 100vh;
+    background-position:center;
+    background-size:cover;
+}
+
+#menuheader{
+    background-image: url(images/1.jpg);
+     height: 100vh;
+    background-position:center;
+    background-size:cover;
+}
+
+.row{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+
+
+
+
+.btn-half,.btn-full{
+   border:1px solid #E67E22;
+    padding: 10px 30px;
+    color: #E67E22;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right:15px;
+}
+
+.button-awesome{
+    margin-top:40px;
+}
+
+.btn-half{
+    background-color:#E67E22;
+    color:  white;
+}
+
+.btn-full:hover{
+    background-color:#E67E22;
+    color:  white;
+    transition: all 0.5s ease-in;
+}
+.copy{
+    width:70%;
+    margin-left:15%;
+    margin-bottom:20px;
+}
+
+.features h3:after, .mobile h3:after, .testimonials h3:after{
+    width:100px;
+    height:2px;
+    background-color:#E67E22;
+    display:block;
+    content:"";
+    margin:0 auto;
+    margin-top:30px;
+}
+
+.features h3{
+    margin-top:60px;
+    margin-bottom: 30px;
+}
+
+.arranging{
+    text-align:justify;
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+}
+.caption{
+      font-family: 'Dancing Script', cursive;
+    font-size: 32px;
+    
+}
+
+.features i{
+      font-size: 40px;
+      color: #E67E22;
+    margin-left:35%;
+}
+.footer i{
+    font-size:30px;
+    
+}
+.features h4{
+    margin-left: 50px;
+}
+.pic img{
+    width:100%;
+    height:auto;
+    
+    margin-top:60px;
+    
+}
+
+.works-step{
+    margin-top:50px;
+}
+
+.works-step div{
+    border:1px solid #E67E22;
+    display:inline-block;
+    border-radius:50%;
+    width:50px;
+    height:50px;
+    text-align:center;
+    line-height:50px;
+}
+
+.works-step img{
+    width:40%;
+    
+}
+
+.mobile{
+    margin-top:60px;
+}
+
+.testimonials{
+  
+    background-image:linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,.7)) ,url(images/1371600392952.jpeg) ;
+    
+    padding: 80px;
+    padding-bottom:80px;
+    background-position:center;
+    background-size:cover;
+    color:white;
+}
+  
+.testimonials p{
+        color:white;
+        line-height: 25px;
+        text-align:justify;
+        margin-top: 60px;
+    }
+    
+
+
+.testimonials cite img{
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+    margin-right:10px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .footer i{
+        font-size: 20px;
+    }
+    
+    #contactus{
+        font-size:20px;
+        text-align:center;
+         float:left;
+   
+         
+       
+    }
+    .info{
+        font-size:16px;
+    }
+    
+    #connect{
+        font-size:20px;
+    }
+    .item{
+        height:300px;
+        width:auto;
+    }
+    .footer{
+        height:auto
+    }
+    #footerlogo{
+        width:auto;
+        height: 160px;
+    
+    }
+    
+    .pancakes li a{   
+        font-size:14px;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;          
+    }
+
+    .pancakes li.active {
+    
+        padding-top:2px;
+    
+        padding-bottom: 0px;
+    
+        text-decoration:none;
+    
+    
+}   
+
+#ordernowhero{
+    position: relative;
+    width: 240px;
+    top: 30%;
+    left: 50%
+    
+    transform:translate(-30%,-30%);
+    color: white;
+    
+}
+.carousel-caption{
+    top:30%; 
+}
+#indextitle{
+     font-size: 40px;
+
+}
+#heromenu{
+  
+ 
+        
+}
+
+.pancakes li.active {
+    padding-top:10px;
+    background:none;
+    text-decoration:none;
+    
+    
+}
+
+
+
+.pancakes li a{
+    
+   text-decoration:none; 
+    
+   
+    font-size:21px;
+    
+}
+.pancakes li{
+    padding-bottom: 15px;
+}
+}
+   
+   
+   
